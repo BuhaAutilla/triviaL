@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Hola, <span id="username"></span></h2>
+  <p>¡Elige tu desafío!</p>
+
+  <div>
+    <button id="entertainment-btn" class="my-btn">Entretención</button>
+  </div>
+
+  <div>
+    <button id="netflix-btn" class="my-btn">Netflix</button>
+  </div>
+
+  <script type="text/javascript">
+
+    let username = sessionStorage.getItem("username");
+    document.getElementById("username").innerHTML = username;
+
+    document.getElementById("entertainment-btn").addEventListener ("click", function () {
+      sessionStorage.setItem("topic", 'entertainment');
+      // window.open('questions.html', '_self');
+    });
+
+    document.getElementById("netflix-btn").addEventListener ("click", function () {
+      sessionStorage.setItem("topic", 'netflix');
+       // window.open('questions.html', '_self');
+    });
+
+
+  </script>
+
+</body>
+</html>

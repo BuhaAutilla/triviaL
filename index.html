@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Trivia Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <h2>Want to play Trivia?</h2>
+
+  <form id="name_form">
+    <label for="fname">Enter your name:</label><br>
+    <input type="text" id="fname" placeholder="Username"><br>
+    <input type="button" id="name-btn" value="Submit">
+  </form>
+
+  <script type="text/javascript">
+
+    document.getElementById("name-btn").addEventListener ("click", function ()
+    {
+      let username = document.getElementById("fname").value
+      sessionStorage.setItem("username", username);
+      window.open('hi-pick-a-topic.html', '_self');
+     });
+
+  </script>
+
+  </body>
+</html>
