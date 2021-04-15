@@ -2,10 +2,10 @@ TriviaL
 -------
 
 Trivia App Proyecto para Laboratorio
-Squad 1
-Dupla 4
-Valeska Aracena
-Larysa Yanushchyk
+- Squad 1
+- Dupla 4
+- Valeska Aracena
+- Larysa Yanushchyk
 
 [Link a codigo de nuestro Trivia](https://replit.com/join/ufmxrsuk-hyperlara)
 
