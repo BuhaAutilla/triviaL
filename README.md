@@ -20,7 +20,7 @@ La Ruta del processo:
 9. Almuerzo.
 11. Volver al inicio y hacer script.js donde pone funcion que hace proceso muy simple para todos botones (corecto y incorecto). Timer. Counter.
 12. Multiplicar solucion a preguntas en topicos.
-13. CSS.
+13. CSS. Classes, Botones, Change Style.
 
 Resumen
 -------
@@ -29,7 +29,7 @@ Que cumpliste
 
 - [x] Codigo de "practica bueno"
 - [x] MVP levemente parecido a UX
-- [x] Descubriendo 
+- [x] Descubriendo JS (variables, funciones), DOM (GetElementById, EventListener), HTML, CSS
 - [ ] Contador de atras con corazones
 - [ ] Listen "Daft Punk - Harder, Better, Faster, Stronger" 100 veses
 
