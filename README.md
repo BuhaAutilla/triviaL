@@ -10,10 +10,9 @@ Trivia App Proyecto para Laboratorio
 La Ruta del processo:
 
 1. UX en papel. Que necesitan nuestro usuario: Entetencion y ganar mas preguntas sin perder ni una life.
-2. Eschema-block
 3. Priority: hacemos primero MVP que cumple los requerimientos, despues timer, counter, corazones
-4. HTML de la primera pagina. document.GetElementbyId()
-5. Descubri SessionStorage for Username.
+4. HTML de la primera pagina. 
+5. Descubri SessionStorage for Username, Topics y Contador.
 6. Decision a caminar con <script> a dentro de html. 
 7. Couch seccion. Entendi que no cumplimos con "practica buena". Repetimos su mismo codigo, multiplicamos monton de HTML y no podemos a volver el codigo en separado js file.
 8. Valley of despair.
